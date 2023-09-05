@@ -3,7 +3,7 @@
  * @author Maxim Urusov
  *
  * @see <a href="https://vk.com/video-221759623_456239021">
- *     Lesson 2 - new "HelloWorld!" project</a>
+ *     2 Урок - новый "HelloWorld!" проект</a>
  */
 public class Lesson2NewHelloWorldProject {
 
