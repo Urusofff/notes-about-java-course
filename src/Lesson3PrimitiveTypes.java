@@ -3,9 +3,9 @@
  * @author Maxim Urusov
  *
  * @see <a href="https://vk.com/video-221759623_456239023">
- *     Lesson 3 - variables and primitives</a>
+ *     3 Урок - примитивные типы</a>
  */
-public class Lesson3VariablesAndPrimitives {
+public class Lesson3PrimitiveTypes {
 
     public static void main(String[] args) {
         byte newByte = 127;
@@ -21,7 +21,5 @@ public class Lesson3VariablesAndPrimitives {
         char newChar = 'i';
         boolean newBoolean = true;
 
-
     }
-
 }
