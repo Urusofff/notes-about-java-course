@@ -14,7 +14,7 @@ public class Lesson5OperatorIf {
         // полная форма
         if (isNeededJava) {
             System.out.println("Мы изучаем курс Notes about Java!");
-        } else if (2 + 2 != 4) { // 2 - измените на 2 + 2 != 4, чтобы попасть else
+        } else if (2 + 2 != 4) { // 2 - измените на 2 + 2 != 4, чтобы попасть в else
             System.out.println("Здорово! Мы изучаем курс Notes about Java!");
         }
         // else if ...
