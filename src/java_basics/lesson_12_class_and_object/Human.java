@@ -5,7 +5,7 @@ package java_basics.lesson_12_class_and_object;
  * @see <a href="https://vk.com/video-221759623_456239038">
  * 12 Урок - класс и объект</a>
  */
-public class Human {
+public class Human { // переименуйте класс в GodHuman
 
     String name;
     int age;
