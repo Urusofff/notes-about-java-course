@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @author Maxim Urusov
- * @see <a href="https://vk.com/video-221759623_456239031">
+ * @see <a href="https://vk.com/video-221759623_456239059">
  * 7 Урок - массивы</a>
  */
 public class Lesson7Arrays {

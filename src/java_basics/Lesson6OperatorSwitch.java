@@ -3,7 +3,7 @@ package java_basics;
 /**
  * @author Maxim Urusov
  *
- * @see <a href="https://vk.com/video-221759623_456239030">
+ * @see <a href="https://vk.com/video-221759623_456239058">
  *     6 Урок - оператор выбора Switch</a>
  */
 public class Lesson6OperatorSwitch {

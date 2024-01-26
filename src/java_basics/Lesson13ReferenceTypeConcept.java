@@ -4,7 +4,7 @@ import java_basics.lesson_12_class_and_object.Human;
 
 /**
  * @author Maxim Urusov
- * @see <a href="https://vk.com/video-221759623_456239039">
+ * @see <a href="https://vk.com/video-221759623_456239065">
  * 13 Урок - понятие о ссылочном типе</a>
  */
 public class Lesson13ReferenceTypeConcept {

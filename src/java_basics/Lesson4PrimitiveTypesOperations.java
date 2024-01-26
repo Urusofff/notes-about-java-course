@@ -3,7 +3,7 @@ package java_basics;
 /**
  * @author Maxim Urusov
  *
- * @see <a href="https://vk.com/video-221759623_456239024">
+ * @see <a href="https://vk.com/video-221759623_456239056">
  *     4 Урок - операции над примитивными типами</a>
  */
 public class Lesson4PrimitiveTypesOperations {

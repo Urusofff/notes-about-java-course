@@ -2,7 +2,7 @@ package java_basics;
 
 /**
  * @author Maxim Urusov
- * @see <a href="https://vk.com/video-221759623_456239034">
+ * @see <a href="https://vk.com/video-221759623_456239061">
  * 9 Урок - цикл for</a>
  */
 public class Lesson9CycleFor {

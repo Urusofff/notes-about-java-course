@@ -3,7 +3,7 @@ package java_basics;
 /**
  * @author Maxim Urusov
  *
- * @see <a href="https://vk.com/video-221759623_456239027">
+ * @see <a href="https://vk.com/video-221759623_456239057">
  *     5 Урок - условный оператор if</a>
  */
 public class Lesson5OperatorIf {
