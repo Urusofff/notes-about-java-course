@@ -3,7 +3,7 @@ package java_basics;
 import java_basics.lesson_12_class_and_object.Human;
 
 /**
- * @author Maxim Urusov
+ * @author Maksim Urusov
  * @see <a href="https://vk.com/video-221759623_456239067">
  * 15 Урок - return методы</a>
  */

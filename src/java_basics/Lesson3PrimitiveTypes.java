@@ -1,7 +1,7 @@
 package java_basics;
 
 /**
- * @author Maxim Urusov
+ * @author Maksim Urusov
  *
  * @see <a href="https://vk.com/video-221759623_456239055">
  *     3 Урок - примитивные типы</a>

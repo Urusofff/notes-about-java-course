@@ -4,7 +4,7 @@ import java.util.AbstractList;
 import java.util.List;
 
 /**
- * @author Maxim Urusov
+ * @author Maksim Urusov
  * @see <a href="https://vk.com/video-221759623_456239072">
  * Инструкции. Миграция Java проекта с 17 на 21 jdk</a>
  */

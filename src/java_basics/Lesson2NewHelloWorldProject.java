@@ -1,7 +1,7 @@
 package java_basics;
 
 /**
- * @author Maxim Urusov
+ * @author Maksim Urusov
  *
  * @see <a href="https://vk.com/video-221759623_456239054">
  *     2 Урок - новый "HelloWorld!" проект</a>
