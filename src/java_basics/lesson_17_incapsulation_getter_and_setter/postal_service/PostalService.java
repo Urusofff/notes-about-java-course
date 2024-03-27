@@ -12,7 +12,7 @@ public class PostalService {
     public static void main(String[] args) {
 
         Human boy = new Human();
-        boy.setAge(-7); // измените возраст на отрицательный и запустите
+        boy.setAge(7); // измените возраст на отрицательный и запустите
         boy.setName("Серафим");
         boy.tellAboutYou();
 
