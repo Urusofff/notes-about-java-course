@@ -2,7 +2,7 @@ package java_basics.constructors.lesson_18_intro.model;
 
 /**
  * @author Maksim Urusov
- * @see <a href="https://vk.com/video-221759623_456239076">
+ * @see <a href="https://vk.com/video-221759623_456239079">
  * 18 Урок - введение в конструкторы</a>
  */
 public class IntroSafeHuman {
