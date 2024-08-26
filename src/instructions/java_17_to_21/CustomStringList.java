@@ -1,4 +1,4 @@
-package best_practices.migrate_to_actual_java;
+package instructions.java_17_to_21;
 
 import java.util.AbstractList;
 import java.util.List;
