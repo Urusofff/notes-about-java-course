@@ -2,8 +2,6 @@ package java_basics.lesson_17_incapsulation_getter_and_setter;
 
 /**
  * @author Maksim Urusov
- * @see <a href="https://vk.com/video-221759623_456239076">
- * 17 Урок - инкапсуляция, getter и setter</a>
  */
 public class Human {
 

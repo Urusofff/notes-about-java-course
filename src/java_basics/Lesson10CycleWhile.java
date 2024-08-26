@@ -2,8 +2,6 @@ package java_basics;
 
 /**
  * @author Maksim Urusov
- * @see <a href="https://vk.com/video-221759623_456239062">
- * 10 Урок - цикл while</a>
  */
 public class Lesson10CycleWhile {
 

@@ -2,8 +2,6 @@ package java_basics.constructors.lesson_19_params.model;
 
 /**
  * @author Maksim Urusov
- * @see <a href="https://vk.com/video-221759623_456239080">
- * 19 Урок - параметры конструкторов</a>
  */
 public class ParamSafeHuman {
 

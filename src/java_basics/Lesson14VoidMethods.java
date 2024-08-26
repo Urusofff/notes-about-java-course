@@ -4,8 +4,6 @@ import java_basics.lesson_12_class_and_object.Human;
 
 /**
  * @author Maksim Urusov
- * @see <a href="https://vk.com/video-221759623_456239066">
- * 14 Урок - void методы</a>
  */
 public class Lesson14VoidMethods {
 

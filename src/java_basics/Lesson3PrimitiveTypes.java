@@ -2,9 +2,6 @@ package java_basics;
 
 /**
  * @author Maksim Urusov
- *
- * @see <a href="https://vk.com/video-221759623_456239055">
- *     3 Урок - примитивные типы</a>
  */
 public class Lesson3PrimitiveTypes {
 

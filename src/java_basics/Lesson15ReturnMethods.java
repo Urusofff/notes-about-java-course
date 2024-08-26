@@ -4,8 +4,6 @@ import java_basics.lesson_12_class_and_object.Human;
 
 /**
  * @author Maksim Urusov
- * @see <a href="https://vk.com/video-221759623_456239067">
- * 15 Урок - return методы</a>
  */
 public class Lesson15ReturnMethods {
 

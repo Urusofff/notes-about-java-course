@@ -5,15 +5,13 @@ import java_basics.constructors.lesson_20_copy_and_chain.model.CopyChainSafeHuma
 
 /**
  * @author Maksim Urusov
- * @see <a href="https://vk.com/video-221759623_456239076">
- * 20 Урок - copy и chain конструкторы</a>
  */
 public class CopyChainConstructorService {
 
     public static void main(String[] args) {
 
         CopyChainSafeHuman boy = new CopyChainSafeHuman("Серафим", 7);
-        // измените возраст в конструкторе на отрицательный и запустите
+        // измените имя в конструкторе и запустите
         boy.tellAboutYou();
 
         CopyChainSafeHuman copyOfBoy = new CopyChainSafeHuman(boy, 14);

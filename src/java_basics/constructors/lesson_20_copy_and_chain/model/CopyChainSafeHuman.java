@@ -2,15 +2,13 @@ package java_basics.constructors.lesson_20_copy_and_chain.model;
 
 /**
  * @author Maksim Urusov
- * @see <a href="https://vk.com/video-221759623_456239076">
- * 20 Урок - copy и chain конструкторы</a>
  */
 public class CopyChainSafeHuman {
 
     private final String name;
     private final int age;
 
-    public CopyChainSafeHuman(String name, int age) { // поменяйте параметры имени и возраста местами и запустите
+    public CopyChainSafeHuman(String name, int age) {
         this.name = checkName(name);
         this.age = checkAge(age);
     }

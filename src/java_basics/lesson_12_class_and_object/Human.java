@@ -2,8 +2,6 @@ package java_basics.lesson_12_class_and_object;
 
 /**
  * @author Maksim Urusov
- * @see <a href="https://vk.com/video-221759623_456239064">
- * 12 Урок - класс и объект</a>
  */
 public class Human { // переименуйте класс в GodHuman
 

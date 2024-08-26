@@ -1,12 +1,10 @@
-package instructions.java_17_to_21;
+package best_practices.migrate_to_actual_java;
 
 import java.util.AbstractList;
 import java.util.List;
 
 /**
  * @author Maksim Urusov
- * @see <a href="https://vk.com/video-221759623_456239072">
- * Инструкции. Миграция Java проекта с 17 на 21 jdk</a>
  */
 public class CustomStringList extends AbstractList<String> implements List<String> {
 
