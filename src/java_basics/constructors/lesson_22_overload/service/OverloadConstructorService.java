@@ -1,7 +1,7 @@
-package java_basics.constructors.lesson_21_overload.service;
+package java_basics.constructors.lesson_22_overload.service;
 
 
-import java_basics.constructors.lesson_21_overload.model.OverloadSafeHuman;
+import java_basics.constructors.lesson_22_overload.model.OverloadSafeHuman;
 
 /**
  * @author Maksim Urusov

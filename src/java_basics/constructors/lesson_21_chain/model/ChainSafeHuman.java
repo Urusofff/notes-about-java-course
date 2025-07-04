@@ -1,23 +1,30 @@
-package java_basics.constructors.lesson_21_overload.model;
+package java_basics.constructors.lesson_21_chain.model;
 
 /**
  * @author Maksim Urusov
  */
-public class OverloadSafeHuman {
+public class ChainSafeHuman {
 
-    private final String name;
+    private String name;
     private final int age;
-    private final String moneyMessage = "Поступления средств в год = ";
 
-    public OverloadSafeHuman(String name, int age) { // поменяйте параметры имени и возраста местами и запустите
+    public ChainSafeHuman(String name, int age) {
         this.name = checkName(name);
         this.age = checkAge(age);
     }
 
-    public OverloadSafeHuman(String name, int age, int totalIncome) {
+    public ChainSafeHuman(String name) {
+        this(name, 0);
+//        this.name = checkName(name);
+//        this.age = checkAge(0);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
         this.name = checkName(name);
-        this.age = checkAge(age);
-        System.out.println(moneyMessage + totalIncome/age);
     }
 
     private String checkName(String name) {
@@ -40,14 +47,5 @@ public class OverloadSafeHuman {
 
     public void tellAboutYou() {
             System.out.println("Меня зовут " + name + " и мне " + age + " лет.");
-    }
-
-    public void printIncomeByAge(int totalIncome) {
-        if (age <= 0) {
-            System.out.println("Ошибка! Возраст должен быть больше нуля!");
-            throw new IllegalArgumentException();
-        } else {
-            System.out.println(moneyMessage + totalIncome / age);
-        }
     }
 }

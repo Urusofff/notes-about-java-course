@@ -1,25 +1,23 @@
-package java_basics.constructors.lesson_20_copy_and_chain.model;
+package java_basics.constructors.lesson_22_overload.model;
 
 /**
  * @author Maksim Urusov
  */
-public class CopyChainSafeHuman {
+public class OverloadSafeHuman {
 
     private final String name;
     private final int age;
+    private final String moneyMessage = "Поступления средств в год = ";
 
-    public CopyChainSafeHuman(String name, int age) {
+    public OverloadSafeHuman(String name, int age) { // поменяйте параметры имени и возраста местами и запустите
         this.name = checkName(name);
         this.age = checkAge(age);
     }
 
-    public CopyChainSafeHuman(CopyChainSafeHuman copyChainSafeHuman, int age) {
-        this.name = copyChainSafeHuman.name;
+    public OverloadSafeHuman(String name, int age, int totalIncome) {
+        this.name = checkName(name);
         this.age = checkAge(age);
-    }
-
-    public CopyChainSafeHuman(String name) {
-        this(name, 0);
+        System.out.println(moneyMessage + totalIncome/age);
     }
 
     private String checkName(String name) {
@@ -42,5 +40,14 @@ public class CopyChainSafeHuman {
 
     public void tellAboutYou() {
             System.out.println("Меня зовут " + name + " и мне " + age + " лет.");
+    }
+
+    public void printIncomeByAge(int totalIncome) {
+        if (age <= 0) {
+            System.out.println("Ошибка! Возраст должен быть больше нуля!");
+            throw new IllegalArgumentException();
+        } else {
+            System.out.println(moneyMessage + totalIncome / age);
+        }
     }
 }
